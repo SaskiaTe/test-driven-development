@@ -14,7 +14,7 @@ export function formatDuration(seconds: number): string {
   if (hours > 0) {
     result += `${hours}h`;
   }
-  if (minutes > 0 || hours > 0) {
+  if (minutes > 0) {  
     result += `${minutes}m`;
   }
   if (remainingSeconds > 0 || seconds === 0) {  
